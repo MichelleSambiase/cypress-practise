@@ -1,4 +1,5 @@
 describe('My first test', () => {
+  // chequeo que la pagina se abre correctamente.
   it('Gets, types and asserts', () => {
     cy.visit('https://example.cypress.io');
 
